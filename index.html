@@ -9,14 +9,973 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>{JSON} Placeholder</h1>
-        <p>Free fake and reliable API for testing and prototyping.</p>
-        <p>{JSON} Placeholder is a free online REST API that you can use whenever you need some fake data.</p>
-        <h3>Resources</h3>
-        <p>JSONPlaceholder comes with a set of 1 common resources:</p>
-        <h5>1: <a href="./json/Rock_Paper_and_Scissors.json">/Rock Paper and Scissors</a></h5>
-        <p class="lagetAv">Laget av SD - Sendt meg en <a href="mailto:ryvgsprogrammering@gmail.com">e-post</a></p>
+
+    <div class="card">
+        <div class="table-title">
+            <h2>Public APIs</h2>
+        </div>
+        <div class="table-concept">
+            <input class="table-radio" type="radio" name="table_radio" id="table_radio_0" checked="checked" />
+            <div class="table-display">
+                <p class="lagetAv">Tabellen er laget av SD - Sendt meg en <a href="mailto:ryvgsprogrammering@gmail.com"
+                        class="lagetAvLink">e-post</a></p>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nu</th>
+                        <th>API</th>
+                        <th>Beskrivelse</th>
+                        <th>Kategori</th>
+                        <th>Auth</th>
+                        <th>HTTPS</th>
+                        <th>CORS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            1
+                        </td>
+                        <td><a href="https://roykenvgs.github.io/API/json/Rock_Paper_and_Scissors.json" target="_blank">RPS</a></td>
+                        <td>Rock Paper and Scissors</td>
+                        <td>Games & Comics</td>
+                        <td>No</td>
+                        <td>HTTPS</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            2
+                        </td>
+                        <td><a href="https://www.omdbapi.com/" target="_blank">Poster API</a></td>
+                        <td>The OMDb API is a RESTful web service to obtain movie information, all content and images on the site are contributed and maintained by our users.</td>
+                        <td>Film, Video, Photography</td>
+                        <td>apiKey</td>
+                        <td>HTTPS</td>
+                        <td>CORS</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            3
+                        </td>
+                        <td><a href="https://api.watchmode.com/" target="_blank">Watchmode</a></td>
+                        <td>The most accurate OTT streaming availability metadata, available through a real-time API or S3 dataset.</td>
+                        <td>Film, Video</td>
+                        <td>apiKey</td>
+                        <td>HTTPS</td>
+                        <td>CORS</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            4
+                        </td>
+                        <td><a href="https://whoa.onrender.com/" target="_blank">Keanu Reeves</a></td>
+                        <td>whoa.onrender.com is a free JSON API for every "whoa" said by actor Keanu Reeves in his movies.</td>
+                        <td>Film, Video, Photography</td>
+                        <td>No</td>
+                        <td>HTTPS</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            5
+                        </td>
+                        <td><a href="https://nekosapi.com/docs" target="_blank">Nekos API</a></td>
+                        <td>An open-source anime images & gifs API.</td>
+                        <td>Anime, images, Gif, Photography</td>
+                        <td>?</td>
+                        <td>HTTPS</td>
+                        <td>?</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            6
+                        </td>
+                        <td><a href="https://thedogapi.com/" target="_blank">The Dog API</a></td>
+                        <td>An API all about dog. 60k+ Images. Breeds. Facts.</td>
+                        <td>Images, Photography</td>
+                        <td>apiKey</td>
+                        <td>HTTPS</td>
+                        <td>CORS</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            7
+                        </td>
+                        <td><a href="https://json2video.com/ " target="_blank">Json2video</a></td>
+                        <td>A video creation API to boost your video automation</td>
+                        <td>Video</td>
+                        <td>apiKey</td>
+                        <td>HTTPS</td>
+                        <td>CORS</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            8
+                        </td>
+                        <td><a href="https://github.com/KostaSav/hp-api#readme" target="_blank">Harry Potter API</a></td>
+                        <td>A JSON-based API for getting information on Harry Potter characters and spells.</td>
+                        <td>Film, Images, Photography</td>
+                        <td>No</td>
+                        <td>HTTPS</td>
+                        <td>CORS</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            9
+                        </td>
+                        <td><a href="https://thronesapi.com/" target="_blank">Game of Thrones</a></td>
+                        <td>Game of Thrones Character Api</td>
+                        <td>Film, Images, Photography</td>
+                        <td>No</td>
+                        <td>HTTPS</td>
+                        <td>CORS</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <div class="pagination">
+                <label class="disabled" for="table_radio_-1">&laquo; Previous</label>
+                <label class="active" for="table_radio_0" id="table_pager_0">1</label>
+                <!-- <label for="table_radio_1" id="table_pager_1">2</label>
+        <label for="table_radio_2" id="table_pager_2">3</label>
+        <label for="table_radio_3" id="table_pager_3">4</label>
+        <label for="table_radio_4" id="table_pager_4">5</label> -->
+                <label for="table_radio_1">Next &raquo;</label>
+            </div>
+
+            <!--
+      <input class="table-radio" type="radio" name="table_radio" id="table_radio_1"/>
+      <div class="table-display">Showing 21 to 40
+        of 95 items
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>No</th>
+            <th>FIRST HEADER</th>
+            <th>SECOND HEADER</th>
+            <th>THIRD HEADER</th>
+            <th>FOURTH HEADER</th>
+            <th>FIFTH HEADER</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>21</td>
+            <td>This is Item number 1-21</td>
+            <td>This is Item number 2-21</td>
+            <td>This is Item number 3-21</td>
+            <td>This is Item number 4-21</td>
+            <td>This is Item number 5-21</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>22</td>
+            <td>This is Item number 1-22</td>
+            <td>This is Item number 2-22</td>
+            <td>This is Item number 3-22</td>
+            <td>This is Item number 4-22</td>
+            <td>This is Item number 5-22</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>23</td>
+            <td>This is Item number 1-23</td>
+            <td>This is Item number 2-23</td>
+            <td>This is Item number 3-23</td>
+            <td>This is Item number 4-23</td>
+            <td>This is Item number 5-23</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>24</td>
+            <td>This is Item number 1-24</td>
+            <td>This is Item number 2-24</td>
+            <td>This is Item number 3-24</td>
+            <td>This is Item number 4-24</td>
+            <td>This is Item number 5-24</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>25</td>
+            <td>This is Item number 1-25</td>
+            <td>This is Item number 2-25</td>
+            <td>This is Item number 3-25</td>
+            <td>This is Item number 4-25</td>
+            <td>This is Item number 5-25</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>26</td>
+            <td>This is Item number 1-26</td>
+            <td>This is Item number 2-26</td>
+            <td>This is Item number 3-26</td>
+            <td>This is Item number 4-26</td>
+            <td>This is Item number 5-26</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>27</td>
+            <td>This is Item number 1-27</td>
+            <td>This is Item number 2-27</td>
+            <td>This is Item number 3-27</td>
+            <td>This is Item number 4-27</td>
+            <td>This is Item number 5-27</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>28</td>
+            <td>This is Item number 1-28</td>
+            <td>This is Item number 2-28</td>
+            <td>This is Item number 3-28</td>
+            <td>This is Item number 4-28</td>
+            <td>This is Item number 5-28</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>29</td>
+            <td>This is Item number 1-29</td>
+            <td>This is Item number 2-29</td>
+            <td>This is Item number 3-29</td>
+            <td>This is Item number 4-29</td>
+            <td>This is Item number 5-29</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>30</td>
+            <td>This is Item number 1-30</td>
+            <td>This is Item number 2-30</td>
+            <td>This is Item number 3-30</td>
+            <td>This is Item number 4-30</td>
+            <td>This is Item number 5-30</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>31</td>
+            <td>This is Item number 1-31</td>
+            <td>This is Item number 2-31</td>
+            <td>This is Item number 3-31</td>
+            <td>This is Item number 4-31</td>
+            <td>This is Item number 5-31</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>32</td>
+            <td>This is Item number 1-32</td>
+            <td>This is Item number 2-32</td>
+            <td>This is Item number 3-32</td>
+            <td>This is Item number 4-32</td>
+            <td>This is Item number 5-32</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>33</td>
+            <td>This is Item number 1-33</td>
+            <td>This is Item number 2-33</td>
+            <td>This is Item number 3-33</td>
+            <td>This is Item number 4-33</td>
+            <td>This is Item number 5-33</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>34</td>
+            <td>This is Item number 1-34</td>
+            <td>This is Item number 2-34</td>
+            <td>This is Item number 3-34</td>
+            <td>This is Item number 4-34</td>
+            <td>This is Item number 5-34</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>35</td>
+            <td>This is Item number 1-35</td>
+            <td>This is Item number 2-35</td>
+            <td>This is Item number 3-35</td>
+            <td>This is Item number 4-35</td>
+            <td>This is Item number 5-35</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>36</td>
+            <td>This is Item number 1-36</td>
+            <td>This is Item number 2-36</td>
+            <td>This is Item number 3-36</td>
+            <td>This is Item number 4-36</td>
+            <td>This is Item number 5-36</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>37</td>
+            <td>This is Item number 1-37</td>
+            <td>This is Item number 2-37</td>
+            <td>This is Item number 3-37</td>
+            <td>This is Item number 4-37</td>
+            <td>This is Item number 5-37</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>38</td>
+            <td>This is Item number 1-38</td>
+            <td>This is Item number 2-38</td>
+            <td>This is Item number 3-38</td>
+            <td>This is Item number 4-38</td>
+            <td>This is Item number 5-38</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>39</td>
+            <td>This is Item number 1-39</td>
+            <td>This is Item number 2-39</td>
+            <td>This is Item number 3-39</td>
+            <td>This is Item number 4-39</td>
+            <td>This is Item number 5-39</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>40</td>
+            <td>This is Item number 1-40</td>
+            <td>This is Item number 2-40</td>
+            <td>This is Item number 3-40</td>
+            <td>This is Item number 4-40</td>
+            <td>This is Item number 5-40</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="pagination">
+        <label for="table_radio_0">&laquo; Previous</label>
+        <label for="table_radio_0" id="table_pager_0">1</label>
+        <label class="active" for="table_radio_1" id="table_pager_1">2</label>
+        <label for="table_radio_2" id="table_pager_2">3</label>
+        <label for="table_radio_3" id="table_pager_3">4</label>
+        <label for="table_radio_4" id="table_pager_4">5</label>
+        <label for="table_radio_2">Next &raquo;</label>
+      </div>
+      <input class="table-radio" type="radio" name="table_radio" id="table_radio_2"/>
+      <div class="table-display">Showing 41 to 60
+        of 95 items
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>No</th>
+            <th>FIRST HEADER</th>
+            <th>SECOND HEADER</th>
+            <th>THIRD HEADER</th>
+            <th>FOURTH HEADER</th>
+            <th>FIFTH HEADER</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>41</td>
+            <td>This is Item number 1-41</td>
+            <td>This is Item number 2-41</td>
+            <td>This is Item number 3-41</td>
+            <td>This is Item number 4-41</td>
+            <td>This is Item number 5-41</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>42</td>
+            <td>This is Item number 1-42</td>
+            <td>This is Item number 2-42</td>
+            <td>This is Item number 3-42</td>
+            <td>This is Item number 4-42</td>
+            <td>This is Item number 5-42</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>43</td>
+            <td>This is Item number 1-43</td>
+            <td>This is Item number 2-43</td>
+            <td>This is Item number 3-43</td>
+            <td>This is Item number 4-43</td>
+            <td>This is Item number 5-43</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>44</td>
+            <td>This is Item number 1-44</td>
+            <td>This is Item number 2-44</td>
+            <td>This is Item number 3-44</td>
+            <td>This is Item number 4-44</td>
+            <td>This is Item number 5-44</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>45</td>
+            <td>This is Item number 1-45</td>
+            <td>This is Item number 2-45</td>
+            <td>This is Item number 3-45</td>
+            <td>This is Item number 4-45</td>
+            <td>This is Item number 5-45</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>46</td>
+            <td>This is Item number 1-46</td>
+            <td>This is Item number 2-46</td>
+            <td>This is Item number 3-46</td>
+            <td>This is Item number 4-46</td>
+            <td>This is Item number 5-46</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>47</td>
+            <td>This is Item number 1-47</td>
+            <td>This is Item number 2-47</td>
+            <td>This is Item number 3-47</td>
+            <td>This is Item number 4-47</td>
+            <td>This is Item number 5-47</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>48</td>
+            <td>This is Item number 1-48</td>
+            <td>This is Item number 2-48</td>
+            <td>This is Item number 3-48</td>
+            <td>This is Item number 4-48</td>
+            <td>This is Item number 5-48</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>49</td>
+            <td>This is Item number 1-49</td>
+            <td>This is Item number 2-49</td>
+            <td>This is Item number 3-49</td>
+            <td>This is Item number 4-49</td>
+            <td>This is Item number 5-49</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>50</td>
+            <td>This is Item number 1-50</td>
+            <td>This is Item number 2-50</td>
+            <td>This is Item number 3-50</td>
+            <td>This is Item number 4-50</td>
+            <td>This is Item number 5-50</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>51</td>
+            <td>This is Item number 1-51</td>
+            <td>This is Item number 2-51</td>
+            <td>This is Item number 3-51</td>
+            <td>This is Item number 4-51</td>
+            <td>This is Item number 5-51</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>52</td>
+            <td>This is Item number 1-52</td>
+            <td>This is Item number 2-52</td>
+            <td>This is Item number 3-52</td>
+            <td>This is Item number 4-52</td>
+            <td>This is Item number 5-52</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>53</td>
+            <td>This is Item number 1-53</td>
+            <td>This is Item number 2-53</td>
+            <td>This is Item number 3-53</td>
+            <td>This is Item number 4-53</td>
+            <td>This is Item number 5-53</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>54</td>
+            <td>This is Item number 1-54</td>
+            <td>This is Item number 2-54</td>
+            <td>This is Item number 3-54</td>
+            <td>This is Item number 4-54</td>
+            <td>This is Item number 5-54</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>55</td>
+            <td>This is Item number 1-55</td>
+            <td>This is Item number 2-55</td>
+            <td>This is Item number 3-55</td>
+            <td>This is Item number 4-55</td>
+            <td>This is Item number 5-55</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>56</td>
+            <td>This is Item number 1-56</td>
+            <td>This is Item number 2-56</td>
+            <td>This is Item number 3-56</td>
+            <td>This is Item number 4-56</td>
+            <td>This is Item number 5-56</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>57</td>
+            <td>This is Item number 1-57</td>
+            <td>This is Item number 2-57</td>
+            <td>This is Item number 3-57</td>
+            <td>This is Item number 4-57</td>
+            <td>This is Item number 5-57</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>58</td>
+            <td>This is Item number 1-58</td>
+            <td>This is Item number 2-58</td>
+            <td>This is Item number 3-58</td>
+            <td>This is Item number 4-58</td>
+            <td>This is Item number 5-58</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>59</td>
+            <td>This is Item number 1-59</td>
+            <td>This is Item number 2-59</td>
+            <td>This is Item number 3-59</td>
+            <td>This is Item number 4-59</td>
+            <td>This is Item number 5-59</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>60</td>
+            <td>This is Item number 1-60</td>
+            <td>This is Item number 2-60</td>
+            <td>This is Item number 3-60</td>
+            <td>This is Item number 4-60</td>
+            <td>This is Item number 5-60</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="pagination">
+        <label for="table_radio_1">&laquo; Previous</label>
+        <label for="table_radio_0" id="table_pager_0">1</label>
+        <label for="table_radio_1" id="table_pager_1">2</label>
+        <label class="active" for="table_radio_2" id="table_pager_2">3</label>
+        <label for="table_radio_3" id="table_pager_3">4</label>
+        <label for="table_radio_4" id="table_pager_4">5</label>
+        <label for="table_radio_3">Next &raquo;</label>
+      </div>
+      <input class="table-radio" type="radio" name="table_radio" id="table_radio_3"/>
+      <div class="table-display">Showing 61 to 80
+        of 95 items
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>No</th>
+            <th>FIRST HEADER</th>
+            <th>SECOND HEADER</th>
+            <th>THIRD HEADER</th>
+            <th>FOURTH HEADER</th>
+            <th>FIFTH HEADER</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>61</td>
+            <td>This is Item number 1-61</td>
+            <td>This is Item number 2-61</td>
+            <td>This is Item number 3-61</td>
+            <td>This is Item number 4-61</td>
+            <td>This is Item number 5-61</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>62</td>
+            <td>This is Item number 1-62</td>
+            <td>This is Item number 2-62</td>
+            <td>This is Item number 3-62</td>
+            <td>This is Item number 4-62</td>
+            <td>This is Item number 5-62</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>63</td>
+            <td>This is Item number 1-63</td>
+            <td>This is Item number 2-63</td>
+            <td>This is Item number 3-63</td>
+            <td>This is Item number 4-63</td>
+            <td>This is Item number 5-63</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>64</td>
+            <td>This is Item number 1-64</td>
+            <td>This is Item number 2-64</td>
+            <td>This is Item number 3-64</td>
+            <td>This is Item number 4-64</td>
+            <td>This is Item number 5-64</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>65</td>
+            <td>This is Item number 1-65</td>
+            <td>This is Item number 2-65</td>
+            <td>This is Item number 3-65</td>
+            <td>This is Item number 4-65</td>
+            <td>This is Item number 5-65</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>66</td>
+            <td>This is Item number 1-66</td>
+            <td>This is Item number 2-66</td>
+            <td>This is Item number 3-66</td>
+            <td>This is Item number 4-66</td>
+            <td>This is Item number 5-66</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>67</td>
+            <td>This is Item number 1-67</td>
+            <td>This is Item number 2-67</td>
+            <td>This is Item number 3-67</td>
+            <td>This is Item number 4-67</td>
+            <td>This is Item number 5-67</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>68</td>
+            <td>This is Item number 1-68</td>
+            <td>This is Item number 2-68</td>
+            <td>This is Item number 3-68</td>
+            <td>This is Item number 4-68</td>
+            <td>This is Item number 5-68</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>69</td>
+            <td>This is Item number 1-69</td>
+            <td>This is Item number 2-69</td>
+            <td>This is Item number 3-69</td>
+            <td>This is Item number 4-69</td>
+            <td>This is Item number 5-69</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>70</td>
+            <td>This is Item number 1-70</td>
+            <td>This is Item number 2-70</td>
+            <td>This is Item number 3-70</td>
+            <td>This is Item number 4-70</td>
+            <td>This is Item number 5-70</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>71</td>
+            <td>This is Item number 1-71</td>
+            <td>This is Item number 2-71</td>
+            <td>This is Item number 3-71</td>
+            <td>This is Item number 4-71</td>
+            <td>This is Item number 5-71</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>72</td>
+            <td>This is Item number 1-72</td>
+            <td>This is Item number 2-72</td>
+            <td>This is Item number 3-72</td>
+            <td>This is Item number 4-72</td>
+            <td>This is Item number 5-72</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>73</td>
+            <td>This is Item number 1-73</td>
+            <td>This is Item number 2-73</td>
+            <td>This is Item number 3-73</td>
+            <td>This is Item number 4-73</td>
+            <td>This is Item number 5-73</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>74</td>
+            <td>This is Item number 1-74</td>
+            <td>This is Item number 2-74</td>
+            <td>This is Item number 3-74</td>
+            <td>This is Item number 4-74</td>
+            <td>This is Item number 5-74</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>75</td>
+            <td>This is Item number 1-75</td>
+            <td>This is Item number 2-75</td>
+            <td>This is Item number 3-75</td>
+            <td>This is Item number 4-75</td>
+            <td>This is Item number 5-75</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>76</td>
+            <td>This is Item number 1-76</td>
+            <td>This is Item number 2-76</td>
+            <td>This is Item number 3-76</td>
+            <td>This is Item number 4-76</td>
+            <td>This is Item number 5-76</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>77</td>
+            <td>This is Item number 1-77</td>
+            <td>This is Item number 2-77</td>
+            <td>This is Item number 3-77</td>
+            <td>This is Item number 4-77</td>
+            <td>This is Item number 5-77</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>78</td>
+            <td>This is Item number 1-78</td>
+            <td>This is Item number 2-78</td>
+            <td>This is Item number 3-78</td>
+            <td>This is Item number 4-78</td>
+            <td>This is Item number 5-78</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>79</td>
+            <td>This is Item number 1-79</td>
+            <td>This is Item number 2-79</td>
+            <td>This is Item number 3-79</td>
+            <td>This is Item number 4-79</td>
+            <td>This is Item number 5-79</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>80</td>
+            <td>This is Item number 1-80</td>
+            <td>This is Item number 2-80</td>
+            <td>This is Item number 3-80</td>
+            <td>This is Item number 4-80</td>
+            <td>This is Item number 5-80</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="pagination">
+        <label for="table_radio_2">&laquo; Previous</label>
+        <label for="table_radio_0" id="table_pager_0">1</label>
+        <label for="table_radio_1" id="table_pager_1">2</label>
+        <label for="table_radio_2" id="table_pager_2">3</label>
+        <label class="active" for="table_radio_3" id="table_pager_3">4</label>
+        <label for="table_radio_4" id="table_pager_4">5</label>
+        <label for="table_radio_4">Next &raquo;</label>
+      </div>
+      <input class="table-radio" type="radio" name="table_radio" id="table_radio_4"/>
+      <div class="table-display">Showing 81 to 85
+        of 95 items
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>No</th>
+            <th>FIRST HEADER</th>
+            <th>SECOND HEADER</th>
+            <th>THIRD HEADER</th>
+            <th>FOURTH HEADER</th>
+            <th>FIFTH HEADER</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>81</td>
+            <td>This is Item number 1-81</td>
+            <td>This is Item number 2-81</td>
+            <td>This is Item number 3-81</td>
+            <td>This is Item number 4-81</td>
+            <td>This is Item number 5-81</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>82</td>
+            <td>This is Item number 1-82</td>
+            <td>This is Item number 2-82</td>
+            <td>This is Item number 3-82</td>
+            <td>This is Item number 4-82</td>
+            <td>This is Item number 5-82</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>83</td>
+            <td>This is Item number 1-83</td>
+            <td>This is Item number 2-83</td>
+            <td>This is Item number 3-83</td>
+            <td>This is Item number 4-83</td>
+            <td>This is Item number 5-83</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>84</td>
+            <td>This is Item number 1-84</td>
+            <td>This is Item number 2-84</td>
+            <td>This is Item number 3-84</td>
+            <td>This is Item number 4-84</td>
+            <td>This is Item number 5-84</td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>85</td>
+            <td>This is Item number 1-85</td>
+            <td>This is Item number 2-85</td>
+            <td>This is Item number 3-85</td>
+            <td>This is Item number 4-85</td>
+            <td>This is Item number 5-85</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="pagination">
+        <label for="table_radio_3">&laquo; Previous</label>
+        <label for="table_radio_0" id="table_pager_0">1</label>
+        <label for="table_radio_1" id="table_pager_1">2</label>
+        <label for="table_radio_2" id="table_pager_2">3</label>
+        <label for="table_radio_3" id="table_pager_3">4</label>
+        <label class="active" for="table_radio_4" id="table_pager_4">5</label>
+        <label class="disabled" for="table_radio_5">Next &raquo;</label>
+      </div>
+      -->
+        </div>
     </div>
     <script src="./index.js"></script>
 </body>
