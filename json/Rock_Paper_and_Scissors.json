@@ -2,26 +2,26 @@
     {
         "id": 1,
         "title": "Rock",
-        "image": "https://raw.githubusercontent.com/roykenvgs/APIer/main/images/Rock_Paper_and_Scissors/rock.png"
+        "image": "https://raw.githubusercontent.com/roykenvgs/API/main/images/Rock_Paper_and_Scissors/rock.png"
     },
     {
         "id": 2,
         "title": "Paper",
-        "image": "https://raw.githubusercontent.com/roykenvgs/APIer/main/images/Rock_Paper_and_Scissors/paper.png"
+        "image": "https://raw.githubusercontent.com/roykenvgs/API/main/images/Rock_Paper_and_Scissors/paper.png"
     },
     {
         "id": 3,
         "title": "Scissors",
-        "image": "https://raw.githubusercontent.com/roykenvgs/APIer/main/images/Rock_Paper_and_Scissors/Scissors.png"
+        "image": "https://raw.githubusercontent.com/roykenvgs/API/main/images/Rock_Paper_and_Scissors/Scissors.png"
     },
     {
         "id": 4,
         "title": "Banner",
-        "image": "https://raw.githubusercontent.com/roykenvgs/APIer/main/images/Rock_Paper_and_Scissors/ssp_banner.jpg"
+        "image": "https://raw.githubusercontent.com/roykenvgs/API/main/images/Rock_Paper_and_Scissors/ssp_banner.jpg"
     },
     {
         "id": 5,
         "title": "Bakgrunn bildet",
-        "image": "https://raw.githubusercontent.com/roykenvgs/APIer/main/images/Rock_Paper_and_Scissors/ssp_2.jpg"
+        "image": "https://raw.githubusercontent.com/roykenvgs/API/main/images/Rock_Paper_and_Scissors/ssp_2.jpg"
     }
 ]
